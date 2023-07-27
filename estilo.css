@@ -1,0 +1,64 @@
+head, h1{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #BBCCDD;
+    display: flex;
+}
+
+body{
+    background-color: #d9e6f3;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    outline: 10px;
+  
+}
+
+input {type:text} textarea{
+    height: 200px;
+    width: 300px;
+    resize: none;
+} 
+
+.termos{
+    color: black;
+    text-decoration: none;
+}
+
+.termos:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #b0d3f7;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    border: none;
+}
+
+button:hover{
+    transition: all 0,1s linear;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    color: azure;
+    display: flex;
+}

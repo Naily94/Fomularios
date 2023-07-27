@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta id="viewport" name="viewport" content="width-device-width, user-scalable=no">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Formulário de Inscrição</title>
+        <h1>Formulário de Inscrição</h1>
+        <input type="hidden" name="country" value="BR">
+    </head>
+        
+    <body>
+        <h3><I>Dados Pessoais</I></h3>
+        
+        <form action="paginas/formulariodeinscricao.html" method="POST"> 
+            <label for="Nome"><I>1 - Nome Completo:</I></label>
+            <input type="text" name="nome" required id="Nome" autofocus><br><br>
+            <label for="Data de nascimneto"><I>2 - Data de Nascimento:</I></label>  
+            <input type="date" name="date" required id="Data de Nascimento"  ><br><br>
+            <label for="CPF"><I>3 - CPF:</I></label>
+            <input type="number" name="CPF" required id="CPF"  ><br><br>
+            <label for="Email"><I>4 - Email:</I></label>
+            <input type="email" name="email" required id="Email" ><br><br>
+            <label for="Telefone"><I>5 - Telefone de contato:</I></label>
+            <input type="tel" name="phone" required id="Telefone"><br><br>
+            <label for="Telefone Celular"><I>6 - Celular:</I></label>
+            <input type="tel" name="phone" id="Telefone Celular"><br><br>
+            <label><I>7 - Sexo:</I></label>
+            <input type="radio" name="sexo" id="sexo">Masculino<br>
+            <input type="radio" name="sexo" id="sexo">Feminino<br>
+        <br>
+
+            <label><I>8 - Estado Civil:</I></label>
+            <form action="paginas/formulariodeinscricao.html" method="POST">
+            <input type="radio" name="sexo">Solteiro<br>
+            <input type="radio" name="estado-civil">Casado<br>
+            <input type="radio" name="estado-civil">União Estável<br>
+            <input type="radio" name="estado-civil">Separado<br>
+            <input type="radio" name="estado-civil">Divorciado<br>
+            <input type="radio" name="estado-civil">Viúvo<br>
+      <br>
+        
+            <label for="cep"><I>9 - CEP</I></label>
+            <input type="number" name="CEP" required id="cep"><br><br>
+            <label for="city"><I>10 - Cidade:</I></label>Araraquara
+            <input type="radio" name="city" id="city"><form>
+            <br>Américo Brasiliense<input type="radio" name="city" id="city">
+            <br>Bueno de Andrade<input type="radio" name="city" id="number">
+            <br>Matão<input type="radio" name="city" id="city">
+            <br>São Carlos<input type="radio" name="city" id="city">
+            <br>Santa Lúcia<input type="radio" name="city" id="city">
+            <form><br><br>
+
+            <h3><I>Dados Profissionais:</I></h3>
+            <label for="grau de escolaridade"><I>11 - Grau de Escolaridade:</I></label>
+            <form action="paginas/formulariodeinscricao.html" method="GET">
+            Fundamental Incompleto<input type="radio" name="city" id="formacao">
+            <br>Fundamental Completo<input type="radio" name="city" id="formacao">
+            <br>Ensino Médio Incompleto<input type="radio" name="city" id="formacao">
+            <br>Ensino Médio Completo<input type="radio" name="city" id="formacao">
+            <br>Superior Cursando<input type="radio" name="city" id="formacao">
+            <br>Superior Incompleto<input type="radio" name="city" id="formacao">
+            <br>Superior Completo<input type="radio" name="city" id="formacao">
+            <br>Pós Graduação Cursando<input type="radio" name="city" id="formacao">
+            <br>Pós Graduação Completo<input type="radio" name="city" id="formacao">
+            <br>Técnico Cursando<input type="radio" name="city" id="formacao">
+            <br>Técnico Completo<input type="radio" name="city" id="formacao">
+            <form><br><br>
+            <label><I>12 - Primeiro Emprego?</I></label>
+            <form action="paginas/formulariodeinscricao.html" method="GET">Sim<input type="radio" name="joby" id="joby"><br>Não<input type="radio" name="joby" >
+            </form><br>
+            <label><I>13 - Faça um Resumo da Sua Experiência:</I></label>
+            <form action="paginas/formulariodeinscricao.html" method="GET"><textarea name="descricao" placeholder="insira sua resposta"></textarea></form><br>
+            <label for="file"><I>14 - Envie seu curriculo</I></label><form action="paginas/formulariodeinscricao.html" enctype="multipart/form-data" method="post"><input type="file" name="document" 
+             id="file"  accept="application/pdf"></form><br>
+            <form action="paginas/formulariodeinscricao.html" method="GET">
+                
+            <label for="aceito" >
+                <input type="radio" name="termos e condições" id="aceito" >
+             <I>Aceito os <a href="paginas/termosecondicoes.html" target="_blank" class="termos">termos e condições</a></I></label><br> 
+            <button><I>Enviar Formulário</I></button><br><br>
+            </body><br>
+            </form><br>
+
+
+
+            <footer>
+                @Copyrigth - Carolina S.Oliveira
+            </footer>
+            
+    </html>
